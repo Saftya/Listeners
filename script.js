@@ -8,7 +8,7 @@ const btn = document.getElementById('btn')
 btn.addEventListener('click', function trigger(event) {
     console.dir(event.target.value);
     square.style.backgroundColor = event.target.value
-}
+})
 text.addEventListener('input', two)
 
 function one () {
