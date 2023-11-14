@@ -15,7 +15,6 @@ function two(event) {
     square.style.backgroundColor = event.target.value
 }
 
-
 const btnZhmyak = document.getElementById('e_btn')
 btnZhmyak.style.display = 'none'
 console.log(btnZhmyak);
